@@ -1,5 +1,9 @@
 # philiprehberger-safe-json
 
+[![Tests](https://github.com/philiprehberger/py-safe-json/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/py-safe-json/actions/workflows/publish.yml)
+[![PyPI version](https://img.shields.io/pypi/v/philiprehberger-safe-json.svg)](https://pypi.org/project/philiprehberger-safe-json/)
+[![License](https://img.shields.io/github/license/philiprehberger/py-safe-json)](LICENSE)
+
 JSON encoder that handles datetime, Decimal, UUID, dataclasses, and sets without crashing.
 
 ## Install
