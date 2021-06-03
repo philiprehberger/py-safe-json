@@ -24,9 +24,10 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/philiprehberger/py-safe-json"
+Homepage = "https://github.com/philiprehberger/py-safe-json#readme"
 Repository = "https://github.com/philiprehberger/py-safe-json"
 Issues = "https://github.com/philiprehberger/py-safe-json/issues"
+Changelog = "https://github.com/philiprehberger/py-safe-json/blob/main/CHANGELOG.md"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/philiprehberger_safe_json"]
