@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "philiprehberger-safe-json"
-version = "0.1.0"
+version = "0.1.1"
 description = "JSON encoder that handles datetime, Decimal, UUID, dataclasses, and sets without crashing"
 readme = "README.md"
 license = "MIT"
