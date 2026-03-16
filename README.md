@@ -139,6 +139,14 @@ json.dumps({"key": some_value}, cls=SafeJsonEncoder)
 | `dumps(obj, *, decimal_as_string=False, **kwargs)` | Serialize to JSON string using SafeJsonEncoder. Accepts all `json.dumps` keyword arguments |
 | `loads(s, **kwargs)` | Deserialize a JSON string. Pass-through to `json.loads` for API symmetry |
 
+
+## Development
+
+```bash
+pip install -e .
+python -m pytest tests/ -v
+```
+
 ## License
 
 MIT
