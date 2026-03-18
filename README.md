@@ -6,7 +6,7 @@
 
 JSON encoder that handles datetime, Decimal, UUID, dataclasses, and sets without crashing.
 
-## Install
+## Installation
 
 ```bash
 pip install philiprehberger-safe-json
