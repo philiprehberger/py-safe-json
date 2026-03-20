@@ -1,4 +1,5 @@
 # Changelog
+## 0.1.4- Add pytest and mypy tool configuration to pyproject.toml
 
 ## 0.1.3
 
