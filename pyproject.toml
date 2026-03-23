@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "philiprehberger-safe-json"
-version = "0.1.3"
+version = "0.1.5"
 description = "JSON encoder that handles datetime, Decimal, UUID, dataclasses, and sets without crashing"
 readme = "README.md"
 license = "MIT"
@@ -31,3 +31,9 @@ Changelog = "https://github.com/philiprehberger/py-safe-json/blob/main/CHANGELOG
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/philiprehberger_safe_json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.mypy]
+strict = true
